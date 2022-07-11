@@ -45,12 +45,12 @@ p {
     padding-right: 25px;
 }
 
-.row {
+/* .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} */
 
 .col-2 {
     flex-basis: 50%;
@@ -87,7 +87,7 @@ p {
 }
 
 .categories {
-    margin: 70px 0;
+    margin: 70px;
 }
 
 .col-3 {
@@ -97,12 +97,8 @@ p {
 }
 
 .col-3 img {
-    width: 100%;
-
-}
-
-.small-container {
-    max-width: 1080px;
-    margin: auto;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
