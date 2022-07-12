@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    background-color: radial-gradient(#fcffa4, #adff2f) ;
 }
 
 .navbar {
@@ -45,13 +46,13 @@ p {
     padding-left: 25px;
     padding-right: 25px;
 }
-
- /* .row {
+/* /* 
+  .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-}  */
+    justify-content: space-around; */
+   
 
 .col-2 {
     flex-basis: 50%;
@@ -86,9 +87,13 @@ p {
 .header .row {
     margin-top: 70px;
 }
+.row {
+    background-color: radial-gradient(#fcffa4, #adff2f);
+}
 
 .categories {
     margin: 70px;
+    background: radial-gradient(#fcffa4, #adff2f)
 }
 
 .col-3 {
@@ -99,12 +104,13 @@ p {
 
 .col-3 img {
     height: 550px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
 
 }
 .col-4 {
-    flex-basis: 30%;
+    flex-basis: 25%;
+    padding: 10px;
     min-width: 250px;
     margin-bottom: 30px;
 }
