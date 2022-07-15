@@ -87,13 +87,11 @@ p {
 .header .row {
     margin-top: 70px;
 }
-.row {
-    background-color: radial-gradient(#fcffa4, #adff2f);
-}
+
 
 .categories {
     margin: 70px;
-    background: radial-gradient(#fcffa4, #adff2f)
+    text-align: center;
 }
 
 .col-3 {
@@ -103,9 +101,14 @@ p {
 }
 
 .col-3 img {
-    height: 550px;
+    height: 500px;
     padding-left: 55px;
     padding-right: 55px;
+    
+}
+.products {
+    margin: 70px;
+    text-align: center;
 
 }
 .col-4 {
@@ -118,4 +121,45 @@ p {
     height: 200px;
     padding-left: 25px;
     padding-right: 25px;
+    
 }
+.footer{
+    background-color: black;
+    color:#adff2f;
+    font-size: medium;
+    align-items: flex-start;
+    
+}
+.footer h3{
+    color:white;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-decoration: none;
+    
+  }
+  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white; 
+  }
+  
+  .fa-instagram {  
+    background: #880f60;  
+    color: white;
+  } 
+  
+
+  
+  
